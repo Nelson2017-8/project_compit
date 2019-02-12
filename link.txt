@@ -1,0 +1,40 @@
+<?php echo $dominio; ?>account/proyecto/iniciar/
+<?php echo $dominio; ?>account/proyecto/proceso/
+
+<?php echo $dominio; ?>account/consulta/atension_al_cliente/
+<?php echo $dominio; ?>account/consulta/presupuesto/
+<?php echo $dominio; ?>account/consulta/precios/
+<?php echo $dominio; ?>account/consulta/saldo/
+
+<?php echo $dominio; ?>account/cuenta/
+
+<?php echo $dominio; ?>account/servicios/
+
+<?php echo $dominio; ?>account/servicios/desarrollo_web/
+<?php echo $dominio; ?>account/servicios/desing/
+<?php echo $dominio; ?>account/servicios/desing_web/
+<?php echo $dominio; ?>account/servicios/seo/
+
+<?php echo $dominio; ?>account/servicios/desarrollo_web/contractar/
+<?php echo $dominio; ?>account/servicios/desing/contractar/
+<?php echo $dominio; ?>account/servicios/desing_web/contactar/
+<?php echo $dominio; ?>account/servicios/web/contractar/
+
+
+
+<?php 
+// echo 
+//     "<br> id ".$_SESSION['id'].
+//     "<br> usuario ".$_SESSION['usuario'].
+//     "<br> nombre ".$_SESSION['nombre'] .
+//     "<br> correo ".$_SESSION['correo'].
+//     "<br> key ".$_SESSION['key'].
+//     "<br> img ".$_SESSION['ImgPerfil'].
+//     "<br> pais ".$_SESSION['Pais'].
+//     "<br> estado".$_SESSION['Estado'].
+//     "<br> telefono ".$_SESSION['Telefono'];
+ ?>
+
+
+agregar servicios y mantenimiento web a la a bd
+hacer responsive

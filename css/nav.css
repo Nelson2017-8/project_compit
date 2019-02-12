@@ -1,0 +1,175 @@
+/*@import "https://compitweb.com/css/account.css";*/
+@import url(https://compitweb.com/css/style.css);
+.cou{
+  border-radius: 50%;
+  color: #fff;
+  font-size: 10px;
+  height: 15px;
+  width: 16px;
+  line-height: 15px;
+  top: 10px;
+  margin-left: 5px;
+  position: absolute;
+  padding: 0!important;
+  background-color: #000000;
+}
+.badge{
+  padding: 3px;
+}
+.np-xlarge{
+  font-size: 28px;
+  padding-bottom: 1em
+}
+.np-blue, .np-hover-blue:hover {
+  color: #fff !important;
+  background-color: #2196F3 !important;
+}
+.dropdown-menu{
+  padding: 0;
+}
+ a.navbar-brand {
+  display: inline-block;
+  height: 70px;
+  padding: 15px 0;
+}
+.navbar-brand.sticky-logo{
+  padding-left: 18px;
+}
+@media (min-width: 1020px) {
+  .bg_black{
+    height: 60px;
+  }
+}
+ul.ul_li{
+  line-height: 45px!important;
+  height: 50px;
+}
+ul.ul_li li {
+  padding-right: 30px
+}
+ul.ul_li li a {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  /* color: #fff; */
+  font-size: 15px;
+  font-weight: 600;
+  padding: 29px 0px;
+  letter-spacing: 1px;
+}
+ul.ul_li li.active a::before {
+  border: 1px solid #fff;
+  bottom: 0px;
+  content: "";
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+ul.ul_li li.active a:hover {
+  background: none;
+  color: #000;
+}
+ul.ul_li li.active a {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: #000;
+  position: relative;
+}
+.navbar {
+  border: medium none;
+  margin-bottom: 0;
+}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .dropdown-menu,.navbar-light .navbar-nav .active >.nav-link{
+  color: #fff;
+  border-radius: 3px;
+}
+
+.stick .navbar-brand>img {
+  display: none;
+}
+.stick .navbar-brand.sticky-logo>img {
+  display: block;
+}
+.sticky-logo h1 {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1;
+}
+.sticky-logo h1 span {
+  color: #000066;
+}
+.stick ul.ul_li li.active a::after {
+  border: 1px solid #fff;
+  bottom: 0px;
+  content: "";
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+ul.ul_li > li a:hover {
+  color: #000;
+}
+.stick ul.ul_li li.active a {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: #fff;
+  position: relative;
+}
+.stick .logo {
+  height: 20px;
+}
+.stick .logo a {
+  margin-top: 0px;
+}
+ul.ul_li > li a {
+  color: #2d89ef;
+  line-height: 50px;
+  padding: 24px 0px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+div.dropdown-menu > div a:hover{
+  background-color: #2196F3 !important;
+  color: #fff !important;
+  cursor: pointer;
+}
+div.dropdown-menu > div{
+  padding: 0;
+}
+div.dropdown-menu > div a{
+  line-height: 30px !important;
+  color: #000 !important;
+  padding: 3px 20px;
+  display: block;
+  clear: both;
+  font-weight: 400;
+  white-space: nowrap;
+  letter-spacing: 0px;
+  font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 15px;
+  color: #212121;
+  font-weight: 500;
+}
+a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+a:hover {
+  color: #000066;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+body {
+  background: #fff none repeat scroll 0 0;
+  color: #212121;
+  font-size: 14px;
+  text-align: left;
+  overflow-x: hidden;
+  line-height: 22px;
+}
